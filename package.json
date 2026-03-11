@@ -1,0 +1,41 @@
+{
+  "name": "oklch-shades",
+  "version": "1.0.0",
+  "description": "Perceptually uniform neutral scale generation using OKLCH. Zero dependencies.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "oklch",
+    "color",
+    "design-system",
+    "design-tokens",
+    "neutral-scale",
+    "color-science",
+    "figma",
+    "style-dictionary"
+  ],
+  "author": "Olawale Balo – Product Designer + Design Engineer",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}
